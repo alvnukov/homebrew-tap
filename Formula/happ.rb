@@ -5,8 +5,10 @@ class Happ < Formula
   sha256 "e30c7727d3ca817ca873b67284e927f5f371ad4193c4ee813f935e0ac9eb7982"
   license "Apache-2.0"
   head "https://github.com/alvnukov/happ.git", branch: "main"
+  revision 1
 
   depends_on "rust" => :build
+  depends_on "go" => :build
 
   def install
     system "cargo", "install", *std_cargo_args(path: ".")
