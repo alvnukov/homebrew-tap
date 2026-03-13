@@ -1,8 +1,8 @@
 class Zq < Formula
   desc "Standalone jq-compatible query engine with JSON/YAML/TOML/CSV/XML input and output"
   homepage "https://github.com/alvnukov/zq"
-  url "https://github.com/alvnukov/zq/archive/refs/tags/v1.5.0.tar.gz"
-  sha256 "12f132f6223062134e363c7eef924b17852328942a17e5a767baca2cab50f119"
+  url "https://github.com/alvnukov/zq/archive/refs/tags/v1.5.1.tar.gz"
+  sha256 "777f6e4ba852d1537592fca26de7b62f63062cf5a0670576c547a7370566f399"
   license "Apache-2.0"
   head "https://github.com/alvnukov/zq.git", branch: "main"
 
