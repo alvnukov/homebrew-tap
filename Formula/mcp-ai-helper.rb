@@ -1,25 +1,25 @@
 class McpAiHelper < Formula
   desc "Policy-first MCP server for bounded AI-assisted repository work"
   homepage "https://github.com/alvnukov/mcp-ai-helper"
-  version "1.1.1"
+  version "1.1.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alvnukov/mcp-ai-helper/releases/download/v1.1.1/mcp-ai-helper_darwin_arm64.tar.gz"
-      sha256 "0bf0b7aa777669692cd1341d1068620009452b72ea31922b7515778e1663e687"
+      url "https://github.com/alvnukov/mcp-ai-helper/releases/download/v1.1.2/mcp-ai-helper_darwin_arm64.tar.gz"
+      sha256 "8d73141d1a934ef83361284436ea3750528b646a9e5598dee5b5489f6caf12e4"
     else
-      url "https://github.com/alvnukov/mcp-ai-helper/releases/download/v1.1.1/mcp-ai-helper_darwin_amd64.tar.gz"
-      sha256 "9b86cfc143765af062e783b99097e968ae7f75e1365dc259944627ee2a15f0d9"
+      url "https://github.com/alvnukov/mcp-ai-helper/releases/download/v1.1.2/mcp-ai-helper_darwin_amd64.tar.gz"
+      sha256 "54856627d9d92d97c28995fdfa6d4ba606ebea7ac11631a75c265204c2657abe"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/alvnukov/mcp-ai-helper/releases/download/v1.1.1/mcp-ai-helper_linux_arm64.tar.gz"
-      sha256 "fe77dd4561b1f82f85455eb307f6b1585b48591620919ccc2fb1a3a1203b0f88"
+      url "https://github.com/alvnukov/mcp-ai-helper/releases/download/v1.1.2/mcp-ai-helper_linux_arm64.tar.gz"
+      sha256 "dc5645790be785a241bbbaaf0f522a36ec2fb28a88d6ecf9ea7b91dba1ba50dc"
     else
-      url "https://github.com/alvnukov/mcp-ai-helper/releases/download/v1.1.1/mcp-ai-helper_linux_amd64.tar.gz"
-      sha256 "af183cc804b1392cb9ccf087dfb984420e64180d11ce265ab9aa71fc04189f94"
+      url "https://github.com/alvnukov/mcp-ai-helper/releases/download/v1.1.2/mcp-ai-helper_linux_amd64.tar.gz"
+      sha256 "e4c846ffb667be6e6b349c6272adfe55cc8d9232208207d460117b8101ba2d10"
     end
   end
 
