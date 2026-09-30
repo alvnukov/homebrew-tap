@@ -1,8 +1,8 @@
 class Happ < Formula
   desc "Helm chart and manifest importer/converter for helm-apps"
   homepage "https://github.com/alvnukov/happ"
-  url "https://github.com/alvnukov/happ/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "00cb23321618243c7a1a98ace23e0f0a1977db5a9a80bdf7bf5d245df3c760ce"
+  url "https://github.com/alvnukov/happ/archive/refs/tags/v1.3.1.tar.gz"
+  sha256 "0f89bc22d8f4b7967bf01e1f2d2be0356501f46eeaf16ada3a2f6d01fec27d15"
   license "Apache-2.0"
   head "https://github.com/alvnukov/happ.git", branch: "main"
 
